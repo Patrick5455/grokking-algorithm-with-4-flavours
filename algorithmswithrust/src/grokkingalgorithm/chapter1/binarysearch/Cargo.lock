@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "rust"
+name = "grokkingalgorithm/chapter1/binarysearch"
 version = "0.1.0"
