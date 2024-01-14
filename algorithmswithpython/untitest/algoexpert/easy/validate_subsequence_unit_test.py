@@ -4,7 +4,7 @@ import unittest
 
 class ValidateSubSequenceUnitTest(unittest.TestCase):
     def test_is_valid_subsequence(self):
-        print("\n\n valid subsequence test cases")
+        print("valid subsequence test cases")
         counter = 1
         for test_input in valid_subsequence_test_inputs:
             print(f"testing case {counter}")
