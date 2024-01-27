@@ -2,6 +2,7 @@ def recursive_sum(arr: [int]) -> int:
     final_sum = recursive_sum_helper(arr, 0, 0)
     return final_sum
 
+
 def recursive_sum_helper(arr, idx, arr_sum):
     if len(arr) == idx:
         return arr_sum
