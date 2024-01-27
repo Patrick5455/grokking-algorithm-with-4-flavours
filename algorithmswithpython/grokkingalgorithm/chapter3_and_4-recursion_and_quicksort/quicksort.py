@@ -2,8 +2,8 @@ def quicksort(arr: [int]) -> [int]:
     if len(arr) < 2:
         return arr
     pivot = arr[0]
-    larger = [ele for ele in arr if ele > pivot]
-    smaller = [ele for ele in arr if ele < pivot]
+    larger = [ele for ele in arr[1:] if ele >= pivot]
+    smaller = [ele for ele in arr[1:] if ele < pivot]
     return quicksort(smaller) + [pivot] + quicksort(larger)
 
 
